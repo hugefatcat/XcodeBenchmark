@@ -31,4 +31,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Benchmark
-        run: ./Benchmark.sh
+        run: |
+          chmod +x Benchmark.sh \
+          ./Benchmark.sh
